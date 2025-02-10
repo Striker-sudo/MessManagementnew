@@ -1,62 +1,43 @@
 @import "tailwindcss";
 
 @theme{ 
-    --color-midnight: #121063;
-    --color-tahiti: #3ab7bf;
-    --color-bermuda: #78dcca;
-    --color-brown1 : #ede0d4;
-    --color-brown2 : #e6ccb2;
-    --color-brown3 : #ddb892;
-    --color-brown4 : #b08968;
-    --color-brown6 : #7f5539;
-    --color-brown5: #9c6644;
-    --color-pink1: #ffe2e2;
-    --color-pink2: #FFCCCC;
-    --color-pink3: #FFB8B8;
-    --color-pink3: #eed8b4;
-    --color-pink4 : #FFA3A3;
-    --color-logo-green: #004939;
-    --color-btn-green : #004939;
-    --color-green1: #00613B;
-    --color-orange1: #FF9D23;
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --color-brown1 : #ede0d4;
+  --color-brown2 : #e6ccb2;
+  --color-brown3 : #ddb892;
+  --color-brown4 : #b08968;
+  --color-brown6 : #7f5539;
+  --color-brown5: #9c6644;
+  --color-pink1: #ffe2e2;
+  --color-pink2: #FFCCCC;
+  --color-pink3: #FFB8B8;
+  --color-pink3: #eed8b4;
+  --color-pink4 : #FFA3A3;
+  --color-logo-green: #004939;
+  --color-btn-green : #004939;
+  --color-green1: #00613B;
+  --color-orange1: #FF9D23;
 
-    /* // backgrounds */
-    --color-badami1 : #f5e8d3;
-    --color-badami2 : #e8c692;
-    --color-badami3 : #e6c793;
-    --color-badami4 : #a06e22;
-    --color-badami5 : #2f200a;
-    --color-badamidark : #191105;
-    --color-badamidarkl : #474137;
-    /* 'badami1' : '#f5e8d3', */
-        /* 'badami2' : '#e8c692',
-        'badami3' : '#e6c793',
-        'badami4' : '#a06e22',
-        'badami5' : '#2f200a',
-        'badamidark' : '#191105', */
-    /* extend:{
-    colors:{
-         
-        'pink2': '#FFCCCC',
-        'pink3': '#FFB8B8',
-        'pink3': '#eed8b4',
-        'pink4' : '#FFA3A3',
-        'logo-green': '#004939',
-        'btn-green' : '#004939',
-        'green1': '#00613B',
-        'orange1': '#FF9D23',
-
-        // backgrounds
-        'badami1' : '#f5e8d3',
-        'badami2' : '#e8c692',
-        'badami3' : '#e6c793',
-        'badami4' : '#a06e22',
-        'badami5' : '#2f200a',
-        'badamidark' : '#191105',
-
-        // text and buttons
-        'badami6' : '#2a1d09',
-        'btn-badami' : '#3f2c0e'
-    }
-  } */
+  /* // backgrounds */
+  --color-badami1 : #f5e8d3;
+  --color-badami2 : #e8c692;
+  --color-badami3 : #e6c793;
+  --color-badami4 : #a06e22;
+  --color-badami5 : #2f200a;
+  --color-badamidark : #191105;
+  --color-badamidarkl : #474137;
+  --color-stubgdark : #0E1113;
+  --color-stubgcard : #181C1F;
+  --color-stugreen : #32DE84;
+  --color-stured : #B01D1D;
+  --color-stumsg : #A06E22;
+  --color-btnblue : #0ba6ff;
+  --color-sidebarbtn : #dadadd;
+  --color-Fuchsia : #FFC0CB;
+  --color-Hot_Pink : #FF69B4;
+  --color-Lyft_Pink : #FF00BF;
+  --color-Palermo_Pink : #eec0c8;
+  --color-Pink : #FFC0CB;
   }

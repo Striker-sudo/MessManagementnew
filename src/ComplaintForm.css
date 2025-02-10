@@ -1,0 +1,91 @@
+/* ComplaintForm.css */
+.complaint-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #f7f7f7;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .complaint-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .select-input,
+  .textarea-input,
+  .file-input {
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  .select-input:focus,
+  .textarea-input:focus,
+  .file-input:focus {
+    border-color: #007BFF;
+  }
+  
+  .textarea-input {
+    resize: vertical;
+  }
+  
+  .image-preview {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .preview-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+  }
+  
+  .submit-button {
+    padding: 0.75rem;
+    background: linear-gradient(45deg, #007BFF, #00C6FF);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+  }
+  
+  @media (max-width: 600px) {
+    .complaint-container {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+  }
+  

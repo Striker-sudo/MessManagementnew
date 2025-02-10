@@ -22,7 +22,7 @@ const Signup = () => {
             <button
               className={`py-2 px-4 rounded-md font-medium transition ${
                 loginMode === "admin"
-                  ? "bg-brown5 text-white hover:bg-brown6 animate-pulse"
+                  ? "bg-brown5 text-white hover:bg-brown6"
                   : "bg-gray-200 text-gray-800 hover:bg-gray-300"
               }`}
               onClick={() => setLoginMode("admin")}
@@ -32,7 +32,7 @@ const Signup = () => {
             <button
               className={`py-2 px-4 rounded-md font-medium transition ${
                 loginMode === "user"
-                  ? "bg-brown4 text-white hover:bg-brown6 animate-pulse"
+                  ? "bg-brown4 text-white hover:bg-brown6"
                   : "bg-gray-200 text-gray-800 hover:bg-gray-300"
               }`}
               onClick={() => setLoginMode("user")}
